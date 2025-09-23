@@ -859,3 +859,854 @@ Caused by: java.lang.ClassNotFoundException: net.sf.jsqlparser.statement.select.
 2025-09-23 09:58:03.426  INFO 2720 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-09-23 09:58:03.427  INFO 2720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-09-23 09:58:03.452  INFO 2720 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2025-09-23 09:59:09.020  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:09.082  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.251  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.297  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.657  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.658  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.657  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.661  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.659  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.667  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.713  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.719  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.720  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.726  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.735  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.738  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.767  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.773  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.774  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.776  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.780  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.781  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.810  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.814  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.823  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.825  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.833  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.850  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.863  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.863  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.875  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.876  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.876  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.891  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.927  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.928  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.929  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.938  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.942  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.945  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.971  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.974  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.976  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:10.983  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.987  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:10.987  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.021  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.021  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.021  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.028  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.029  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.029  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.067  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.067  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.068  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.077  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.077  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.077  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.107  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.115  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.116  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.150  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.157  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.164  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.204  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.206  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.246  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.257  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.270  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.323  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.339  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.382  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.396  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.440  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.448  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.495  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.513  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.513  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.558  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.567  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.620  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.661  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.671  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.714  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.727  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.769  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.787  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.829  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.843  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.894  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.917  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:11.967  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:11.992  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:12.039  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:12.050  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:12.058  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 09:59:12.092  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 09:59:12.100  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.587  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.687  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.716  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.716  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.719  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.746  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.766  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.770  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.814  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.827  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.827  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.839  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:11.846  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.880  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:11.888  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:12.130  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:12.147  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:12.147  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:12.193  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:12.203  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:12.230  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:12.230  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:12.280  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:12.292  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:23.556  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:23.667  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:24.777  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:24.858  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:32.856  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:32.938  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:32.976  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:32.976  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:32.977  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:32.976  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:32.977  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:32.993  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.025  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.030  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.030  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.034  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.037  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.038  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.049  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.057  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.073  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.079  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.080  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.080  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.086  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.090  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.093  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.102  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.125  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.135  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.135  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.138  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.146  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.148  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.148  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.157  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.171  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.178  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.180  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.180  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.193  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.193  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.203  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.213  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.218  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.224  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.227  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.228  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.233  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.237  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.257  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.259  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.267  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.272  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.273  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.282  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.288  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.299  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.302  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.316  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.317  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.320  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.331  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.354  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.358  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.367  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.409  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.411  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.464  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.468  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.477  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.526  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.535  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.577  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.586  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.635  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.645  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.695  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.706  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.706  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.756  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.761  INFO 2720 --- [http-nio-8080-exec-6] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.794  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.840  INFO 2720 --- [http-nio-8080-exec-8] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.858  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.907  INFO 2720 --- [http-nio-8080-exec-1] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.926  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:33.976  INFO 2720 --- [http-nio-8080-exec-2] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:33.998  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:34.040  INFO 2720 --- [http-nio-8080-exec-10] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:34.053  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:34.101  INFO 2720 --- [http-nio-8080-exec-3] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:34.119  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:34.167  INFO 2720 --- [http-nio-8080-exec-9] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:34.185  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:34.243  INFO 2720 --- [http-nio-8080-exec-7] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:34.264  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:34.268  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : checking username:admin
+2025-09-23 10:01:34.315  INFO 2720 --- [http-nio-8080-exec-5] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:01:34.325  INFO 2720 --- [http-nio-8080-exec-4] c.c.m.s.f.JwtAuthenticationTokenFilter   : authenticated user:admin
+2025-09-23 10:02:40.265  INFO 2720 --- [Thread-222] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:02:40.266  INFO 2720 --- [Thread-222] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2025-09-23 10:02:40.270  INFO 2720 --- [Thread-222] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2025-09-23 10:02:40.345  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:02:40.345  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:02:40.632  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:02:40.633  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:02:40.642  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2025-09-23 10:02:40.699  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2463c8b2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:02:40.700  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:02:40.731  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:02:40.731  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:02:40.732  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:02:40.755  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:02:40.755  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 408 ms
+2025-09-23 10:02:40.775  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:02:42.906  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2025-09-23 10:02:42.938  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:02:42.939  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:02:43.072  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:02:43.079  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e593d04, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cff74af, org.springframework.security.web.header.HeaderWriterFilter@38f1652a, org.springframework.security.web.authentication.logout.LogoutFilter@7a43a7aa, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@2cc139c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39b1a39b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@39d416dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@514242d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6229b5e2, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@42413f6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50e628e2, org.springframework.security.web.session.SessionManagementFilter@24736b62, org.springframework.security.web.access.ExceptionTranslationFilter@775f4de8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53c9bd10]
+2025-09-23 10:02:43.116  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:02:43.132  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:02:43.264  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:02:43.278  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:02:43.280  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.959 seconds (JVM running for 305.298)
+2025-09-23 10:02:43.281  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:08:28.312  INFO 2720 --- [Thread-225] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:08:28.313  INFO 2720 --- [Thread-225] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2025-09-23 10:08:28.315  INFO 2720 --- [Thread-225] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2025-09-23 10:08:28.407  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:08:28.408  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:08:28.837  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:08:28.837  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:08:28.845  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2025-09-23 10:08:28.889  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@13fbad6f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:08:28.889  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:08:28.927  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:08:28.928  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:08:28.928  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:08:28.950  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:08:28.950  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
+2025-09-23 10:08:28.973  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:08:30.667  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2025-09-23 10:08:30.682  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:08:30.682  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:08:30.782  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:08:30.788  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79983b32, org.springframework.security.web.context.SecurityContextPersistenceFilter@2548d0f8, org.springframework.security.web.header.HeaderWriterFilter@3db58d93, org.springframework.security.web.authentication.logout.LogoutFilter@b38570a, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@6ac2491d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@39ebff0e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5fac06af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@604680d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@718e505c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1b5eebd7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bccc2b, org.springframework.security.web.session.SessionManagementFilter@3685e0d5, org.springframework.security.web.access.ExceptionTranslationFilter@5e337f1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a7c540e]
+2025-09-23 10:08:30.829  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:08:30.843  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:08:31.044  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:08:31.055  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:08:31.059  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.676 seconds (JVM running for 653.076)
+2025-09-23 10:08:31.060  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:12:58.295  INFO 2720 --- [Thread-447] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:12:58.295  INFO 2720 --- [Thread-447] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closing ...
+2025-09-23 10:12:58.298  INFO 2720 --- [Thread-447] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} closed
+2025-09-23 10:12:58.352  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:12:58.352  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:12:58.608  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:12:58.608  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:12:58.619  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2025-09-23 10:12:58.662  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7234255e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:12:58.663  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:12:58.688  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:12:58.689  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:12:58.689  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:12:58.736  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:12:58.736  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 382 ms
+2025-09-23 10:12:58.752  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:13:00.260  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} inited
+2025-09-23 10:13:00.276  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:13:00.276  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:13:00.369  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:13:00.369  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:13:00.369  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:13:00.369  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:13:00.370  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:13:00.378  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4638dc91, org.springframework.security.web.context.SecurityContextPersistenceFilter@60cd020f, org.springframework.security.web.header.HeaderWriterFilter@72ff1113, org.springframework.security.web.authentication.logout.LogoutFilter@3faba4d2, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@45298022, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@723d3b66, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1c8fd62c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d4ba79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ca95439, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@76be013d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2982e315, org.springframework.security.web.session.SessionManagementFilter@680a6cc8, org.springframework.security.web.access.ExceptionTranslationFilter@55a66b24, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c046a21]
+2025-09-23 10:13:00.408  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:13:00.420  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:13:00.510  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:13:00.517  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:13:00.520  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.184 seconds (JVM running for 922.538)
+2025-09-23 10:13:00.521  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:13:04.251  INFO 2720 --- [Thread-669] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:13:04.252  INFO 2720 --- [Thread-669] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closing ...
+2025-09-23 10:13:04.257  INFO 2720 --- [Thread-669] com.alibaba.druid.pool.DruidDataSource   : {dataSource-4} closed
+2025-09-23 10:13:04.345  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:13:04.345  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:13:04.603  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:13:04.603  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:13:04.610  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2025-09-23 10:13:04.658  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@685def1f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:13:04.660  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:13:04.688  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:13:04.689  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:13:04.689  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:13:04.720  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:13:04.720  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 372 ms
+2025-09-23 10:13:04.744  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:13:06.351  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} inited
+2025-09-23 10:13:06.367  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:13:06.367  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:13:06.442  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:13:06.445  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bc8522f, org.springframework.security.web.context.SecurityContextPersistenceFilter@694ad7f1, org.springframework.security.web.header.HeaderWriterFilter@1362979c, org.springframework.security.web.authentication.logout.LogoutFilter@77c5a0f3, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@7bf5de72, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2aeaf311, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11810b10, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@351a770c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32c3d844, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@48e835c5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4da0e931, org.springframework.security.web.session.SessionManagementFilter@232b23bb, org.springframework.security.web.access.ExceptionTranslationFilter@64470975, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@424e921d]
+2025-09-23 10:13:06.472  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:13:06.482  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:13:06.593  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:13:06.605  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:13:06.608  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.287 seconds (JVM running for 928.626)
+2025-09-23 10:13:06.608  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:27:42.785  INFO 2720 --- [Thread-891] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:27:42.787  INFO 2720 --- [Thread-891] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closing ...
+2025-09-23 10:27:42.791  INFO 2720 --- [Thread-891] com.alibaba.druid.pool.DruidDataSource   : {dataSource-5} closed
+2025-09-23 10:27:43.032  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:27:43.033  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:27:44.418  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:27:44.418  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:27:44.433  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2025-09-23 10:27:44.513  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@512a13ee' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:27:44.514  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:27:44.545  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:27:44.545  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:27:44.546  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:27:44.569  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:27:44.569  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1529 ms
+2025-09-23 10:27:44.589  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:27:46.832  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} inited
+2025-09-23 10:27:46.850  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:27:46.851  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:27:47.021  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:27:47.021  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:27:47.021  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:27:47.021  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:27:47.021  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:27:47.022  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:27:47.022  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:27:47.022  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:27:47.022  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:27:47.022  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:27:47.022  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:27:47.032  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b468dc0, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b859d32, org.springframework.security.web.header.HeaderWriterFilter@6df38f4b, org.springframework.security.web.authentication.logout.LogoutFilter@6f615108, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@a9a58c3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5598695a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b1132e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3334ea1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42cca2e4, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1bb349b8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77c7e1fa, org.springframework.security.web.session.SessionManagementFilter@75f3e3f0, org.springframework.security.web.access.ExceptionTranslationFilter@63377bdf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c781cbe]
+2025-09-23 10:27:47.079  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:27:47.095  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:27:47.271  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:27:47.284  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:27:47.287  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 4.397 seconds (JVM running for 1809.305)
+2025-09-23 10:27:47.288  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:28:32.386  INFO 2720 --- [Thread-1113] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:28:32.387  INFO 2720 --- [Thread-1113] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closing ...
+2025-09-23 10:28:32.395  INFO 2720 --- [Thread-1113] com.alibaba.druid.pool.DruidDataSource   : {dataSource-6} closed
+2025-09-23 10:28:32.534  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:28:32.535  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:28:33.011  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:28:33.011  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:28:33.020  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2025-09-23 10:28:33.129  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@b29849' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:28:33.130  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:28:33.179  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:28:33.180  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:28:33.181  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:28:33.219  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:28:33.219  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2025-09-23 10:28:33.249  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:28:34.722  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} inited
+2025-09-23 10:28:34.737  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:28:34.738  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:28:34.841  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:28:34.853  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67f9d53c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6625e1de, org.springframework.security.web.header.HeaderWriterFilter@5f446135, org.springframework.security.web.authentication.logout.LogoutFilter@39a50d34, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@c7c7c3e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e4b60ed, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@266cd105, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@693edd18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@150f44c3, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@47e5cbab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@568e25c2, org.springframework.security.web.session.SessionManagementFilter@1fff4a53, org.springframework.security.web.access.ExceptionTranslationFilter@33194a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@a57722b]
+2025-09-23 10:28:34.903  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:28:34.918  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:28:35.159  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:28:35.173  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:28:35.176  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.671 seconds (JVM running for 1857.194)
+2025-09-23 10:28:35.177  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:29:16.644  INFO 2720 --- [Thread-1335] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:29:16.646  INFO 2720 --- [Thread-1335] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closing ...
+2025-09-23 10:29:16.653  INFO 2720 --- [Thread-1335] com.alibaba.druid.pool.DruidDataSource   : {dataSource-7} closed
+2025-09-23 10:29:16.806  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:29:16.806  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:29:17.291  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:29:17.291  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:29:17.308  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2025-09-23 10:29:17.373  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2286989c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:29:17.374  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:29:17.411  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:29:17.411  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:29:17.411  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:29:17.443  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:29:17.443  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 635 ms
+2025-09-23 10:29:17.463  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:29:19.095  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} inited
+2025-09-23 10:29:19.139  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:29:19.140  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:29:19.261  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:29:19.262  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:29:19.262  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:29:19.262  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:29:19.274  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35931d58, org.springframework.security.web.context.SecurityContextPersistenceFilter@519d7628, org.springframework.security.web.header.HeaderWriterFilter@4400789, org.springframework.security.web.authentication.logout.LogoutFilter@57e44e4c, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@63f41c5d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63b5db00, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@893110, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e81277f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a790f69, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@20a3ee2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8529e38, org.springframework.security.web.session.SessionManagementFilter@3a71a9bb, org.springframework.security.web.access.ExceptionTranslationFilter@1ad2b83c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34f121ab]
+2025-09-23 10:29:19.308  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:29:19.319  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:29:19.477  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:29:19.489  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:29:19.492  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.725 seconds (JVM running for 1901.51)
+2025-09-23 10:29:19.493  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:31:01.848  INFO 2720 --- [Thread-1557] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:31:01.849  INFO 2720 --- [Thread-1557] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closing ...
+2025-09-23 10:31:01.854  INFO 2720 --- [Thread-1557] com.alibaba.druid.pool.DruidDataSource   : {dataSource-8} closed
+2025-09-23 10:31:01.986  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:31:01.986  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:31:02.393  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:31:02.393  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:31:02.436  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2025-09-23 10:31:02.495  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@64f49678' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:31:02.495  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:31:02.520  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:31:02.521  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:31:02.521  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:31:02.570  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:31:02.570  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 582 ms
+2025-09-23 10:31:02.590  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:31:04.183  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} inited
+2025-09-23 10:31:04.230  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:31:04.230  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:31:04.404  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:31:04.405  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:31:04.405  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:31:04.405  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:31:04.414  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@137d3895, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ef52a68, org.springframework.security.web.header.HeaderWriterFilter@59177067, org.springframework.security.web.authentication.logout.LogoutFilter@351bf185, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@106726e6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54b373f3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7bfa4614, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d5a6ebc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7facb138, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1c87dc36, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5269ee6e, org.springframework.security.web.session.SessionManagementFilter@6309da53, org.springframework.security.web.access.ExceptionTranslationFilter@78b5792b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8193985]
+2025-09-23 10:31:04.448  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:31:04.466  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:31:04.708  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:31:04.721  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:31:04.725  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.77 seconds (JVM running for 2006.743)
+2025-09-23 10:31:04.726  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:33:22.194  INFO 2720 --- [Thread-1779] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:33:22.196  INFO 2720 --- [Thread-1779] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closing ...
+2025-09-23 10:33:22.201  INFO 2720 --- [Thread-1779] com.alibaba.druid.pool.DruidDataSource   : {dataSource-9} closed
+2025-09-23 10:33:22.345  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:33:22.345  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:33:22.796  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:33:22.796  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:33:22.820  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2025-09-23 10:33:22.935  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4b0983e7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:33:22.938  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:33:22.985  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:33:22.986  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:33:22.986  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:33:23.044  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:33:23.045  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 697 ms
+2025-09-23 10:33:23.108  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:33:24.768  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} inited
+2025-09-23 10:33:24.800  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:33:24.800  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:33:24.918  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:33:24.919  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:33:24.919  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:33:24.919  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:33:24.929  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d3e95b7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bb8409c, org.springframework.security.web.header.HeaderWriterFilter@203cc7b1, org.springframework.security.web.authentication.logout.LogoutFilter@208ed900, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@b285360, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3222ea56, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19a7e1b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3af06c1a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c3725ba, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3e35b289, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2452395b, org.springframework.security.web.session.SessionManagementFilter@4df51594, org.springframework.security.web.access.ExceptionTranslationFilter@1e9be24b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e42eae9]
+2025-09-23 10:33:24.956  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:33:24.966  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:33:25.094  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:33:25.109  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:33:25.112  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.808 seconds (JVM running for 2147.13)
+2025-09-23 10:33:25.112  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:47:20.734  INFO 2720 --- [Thread-2001] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:47:20.735  INFO 2720 --- [Thread-2001] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closing ...
+2025-09-23 10:47:20.738  INFO 2720 --- [Thread-2001] com.alibaba.druid.pool.DruidDataSource   : {dataSource-10} closed
+2025-09-23 10:47:20.928  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:47:20.928  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:47:22.054  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:47:22.055  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:47:22.065  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2025-09-23 10:47:22.106  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@452ccd7c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:47:22.107  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:47:22.140  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:47:22.141  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:47:22.141  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:47:22.176  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:47:22.177  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2025-09-23 10:47:22.200  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:47:26.044  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} inited
+2025-09-23 10:47:26.067  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:47:26.068  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:47:26.146  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:47:26.152  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b02a214, org.springframework.security.web.context.SecurityContextPersistenceFilter@43011c39, org.springframework.security.web.header.HeaderWriterFilter@39736ab0, org.springframework.security.web.authentication.logout.LogoutFilter@649cc263, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@273bc775, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19354490, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47b9a4cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@202074d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a4ac8d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@49ace637, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9be2a5b, org.springframework.security.web.session.SessionManagementFilter@e347150, org.springframework.security.web.access.ExceptionTranslationFilter@5cd7f2b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5580fdc2]
+2025-09-23 10:47:26.184  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:47:26.201  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:47:26.353  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:47:26.371  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:47:26.374  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 5.522 seconds (JVM running for 2988.392)
+2025-09-23 10:47:26.375  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:47:27.929  INFO 2720 --- [Thread-2223] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:47:27.930  INFO 2720 --- [Thread-2223] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closing ...
+2025-09-23 10:47:27.932  INFO 2720 --- [Thread-2223] com.alibaba.druid.pool.DruidDataSource   : {dataSource-11} closed
+2025-09-23 10:47:28.040  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:47:28.040  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:47:28.244  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:47:28.245  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:47:28.253  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2025-09-23 10:47:28.294  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1eda3ad7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:47:28.294  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:47:28.326  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:47:28.327  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:47:28.327  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:47:28.374  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:47:28.374  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 333 ms
+2025-09-23 10:47:28.396  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:47:29.943  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} inited
+2025-09-23 10:47:29.964  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:47:29.965  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:47:30.019  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:47:30.020  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:47:30.025  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8bda8ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@4442c53, org.springframework.security.web.header.HeaderWriterFilter@1bcafca9, org.springframework.security.web.authentication.logout.LogoutFilter@69ee5818, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@6986a3c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79fdd1a6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5a548a8f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42be26ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@edda5a6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@271a0292, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33fbd094, org.springframework.security.web.session.SessionManagementFilter@10da550a, org.springframework.security.web.access.ExceptionTranslationFilter@7c82e91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79185cb9]
+2025-09-23 10:47:30.052  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:47:30.060  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:47:30.178  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:47:30.190  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:47:30.192  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.172 seconds (JVM running for 2992.21)
+2025-09-23 10:47:30.193  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:48:39.807  INFO 2720 --- [Thread-2445] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:48:39.808  INFO 2720 --- [Thread-2445] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closing ...
+2025-09-23 10:48:39.811  INFO 2720 --- [Thread-2445] com.alibaba.druid.pool.DruidDataSource   : {dataSource-12} closed
+2025-09-23 10:48:39.908  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:48:39.908  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:48:40.178  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:48:40.178  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:48:40.195  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2025-09-23 10:48:40.233  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5c4f61a3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:48:40.234  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:48:40.267  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:48:40.268  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:48:40.268  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:48:40.295  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:48:40.295  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 385 ms
+2025-09-23 10:48:40.309  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:48:41.846  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} inited
+2025-09-23 10:48:41.862  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:48:41.863  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:48:41.917  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:48:41.924  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c60f3ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@2db66713, org.springframework.security.web.header.HeaderWriterFilter@362b1b8e, org.springframework.security.web.authentication.logout.LogoutFilter@64f3b74c, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@6199fb15, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e510e23, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ab1dd0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c7c5a12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6265c778, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5a9fcf0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14429b05, org.springframework.security.web.session.SessionManagementFilter@797c3c54, org.springframework.security.web.access.ExceptionTranslationFilter@2670f364, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@222551f2]
+2025-09-23 10:48:41.945  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:48:41.953  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:48:42.062  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:48:42.073  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:48:42.075  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.185 seconds (JVM running for 3064.094)
+2025-09-23 10:48:42.076  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:48:56.917  INFO 2720 --- [Thread-2667] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:48:56.918  INFO 2720 --- [Thread-2667] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closing ...
+2025-09-23 10:48:56.922  INFO 2720 --- [Thread-2667] com.alibaba.druid.pool.DruidDataSource   : {dataSource-13} closed
+2025-09-23 10:48:57.023  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:48:57.023  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:48:57.265  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:48:57.266  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:48:57.273  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2025-09-23 10:48:57.310  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@566b2c9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:48:57.311  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:48:57.334  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:48:57.334  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:48:57.335  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:48:57.353  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:48:57.353  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 328 ms
+2025-09-23 10:48:57.368  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:48:59.020  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} inited
+2025-09-23 10:48:59.041  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:48:59.042  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:48:59.095  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:48:59.100  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eae8a4f, org.springframework.security.web.context.SecurityContextPersistenceFilter@b152c32, org.springframework.security.web.header.HeaderWriterFilter@778c13a5, org.springframework.security.web.authentication.logout.LogoutFilter@4e223380, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@60aa1399, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@214eb594, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@131da8ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5820a84b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fa689d1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@7945b64e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68339a75, org.springframework.security.web.session.SessionManagementFilter@474c87b2, org.springframework.security.web.access.ExceptionTranslationFilter@3a7d3368, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@206ec4b3]
+2025-09-23 10:48:59.119  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:48:59.127  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:48:59.250  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:48:59.263  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:48:59.265  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.26 seconds (JVM running for 3081.283)
+2025-09-23 10:48:59.266  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:49:41.469  INFO 2720 --- [Thread-2889] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:49:41.469  INFO 2720 --- [Thread-2889] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} closing ...
+2025-09-23 10:49:41.471  INFO 2720 --- [Thread-2889] com.alibaba.druid.pool.DruidDataSource   : {dataSource-14} closed
+2025-09-23 10:49:41.542  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:49:41.542  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:49:41.805  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:49:41.805  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:49:41.826  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2025-09-23 10:49:41.920  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@35c227e6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:49:41.921  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:49:41.953  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:49:41.954  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:49:41.954  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:49:41.990  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:49:41.990  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 446 ms
+2025-09-23 10:49:42.008  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:49:43.667  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} inited
+2025-09-23 10:49:43.689  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:49:43.689  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:49:43.772  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:49:43.773  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:49:43.773  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:49:43.773  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:49:43.786  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b1b2d35, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c542524, org.springframework.security.web.header.HeaderWriterFilter@2eba6326, org.springframework.security.web.authentication.logout.LogoutFilter@6f8cc09c, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@29a6108, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@790697b0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48ea3d71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6508592d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1856b5f9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@faacfce, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28b6ee2f, org.springframework.security.web.session.SessionManagementFilter@5c96c8c3, org.springframework.security.web.access.ExceptionTranslationFilter@493206ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ca9fced]
+2025-09-23 10:49:43.819  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:49:43.835  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:49:43.950  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:49:43.965  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:49:43.968  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.444 seconds (JVM running for 3125.987)
+2025-09-23 10:49:43.969  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:49:53.303  INFO 2720 --- [Thread-3111] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:49:53.304  INFO 2720 --- [Thread-3111] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closing ...
+2025-09-23 10:49:53.310  INFO 2720 --- [Thread-3111] com.alibaba.druid.pool.DruidDataSource   : {dataSource-15} closed
+2025-09-23 10:49:53.449  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:49:53.450  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:49:53.822  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:49:53.823  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:49:53.854  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2025-09-23 10:49:53.920  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4a694092' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:49:53.921  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:49:53.964  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:49:53.965  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:49:53.966  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:49:53.998  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:49:53.998  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 546 ms
+2025-09-23 10:49:54.019  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:49:55.605  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} inited
+2025-09-23 10:49:55.642  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:49:55.642  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:49:55.718  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:49:55.719  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:49:55.719  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:49:55.719  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:49:55.729  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2516309b, org.springframework.security.web.context.SecurityContextPersistenceFilter@578b266f, org.springframework.security.web.header.HeaderWriterFilter@386b3b63, org.springframework.security.web.authentication.logout.LogoutFilter@7ce1c7eb, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@7ed20806, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76af9545, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1117559b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f2c56ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e7dc44f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@e597c49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c5961a5, org.springframework.security.web.session.SessionManagementFilter@3a34d050, org.springframework.security.web.access.ExceptionTranslationFilter@78941d61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@632b4baf]
+2025-09-23 10:49:55.765  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:49:55.776  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:49:55.947  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:49:55.962  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:49:55.965  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.553 seconds (JVM running for 3137.984)
+2025-09-23 10:49:55.966  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:53:14.784  INFO 2720 --- [Thread-3333] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:53:14.786  INFO 2720 --- [Thread-3333] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} closing ...
+2025-09-23 10:53:14.792  INFO 2720 --- [Thread-3333] com.alibaba.druid.pool.DruidDataSource   : {dataSource-16} closed
+2025-09-23 10:53:14.971  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:53:14.971  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:53:15.312  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:53:15.312  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:53:15.321  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2025-09-23 10:53:15.369  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@a34f24d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:53:15.369  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:53:15.396  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:53:15.397  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:53:15.397  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:53:15.425  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:53:15.425  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 445 ms
+2025-09-23 10:53:15.441  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:53:17.212  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} inited
+2025-09-23 10:53:17.259  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:53:17.259  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:53:17.326  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:53:17.326  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:53:17.326  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:53:17.326  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:53:17.326  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:53:17.327  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:53:17.327  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:53:17.327  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:53:17.327  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:53:17.327  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:53:17.327  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:53:17.333  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48907364, org.springframework.security.web.context.SecurityContextPersistenceFilter@7633ce70, org.springframework.security.web.header.HeaderWriterFilter@2e60550c, org.springframework.security.web.authentication.logout.LogoutFilter@8433601, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@41b3b9c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d1bcf56, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e06726c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7076dea3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c922d94, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5efb0fed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f104260, org.springframework.security.web.session.SessionManagementFilter@6abacfe3, org.springframework.security.web.access.ExceptionTranslationFilter@6ead0dd8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b5d8759]
+2025-09-23 10:53:17.374  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:53:17.387  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:53:17.510  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:53:17.520  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:53:17.523  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 2.613 seconds (JVM running for 3339.541)
+2025-09-23 10:53:17.524  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-23 10:58:59.303  INFO 2720 --- [Thread-3555] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:58:59.303  INFO 2720 --- [Thread-3555] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} closing ...
+2025-09-23 10:58:59.306  INFO 2720 --- [Thread-3555] com.alibaba.druid.pool.DruidDataSource   : {dataSource-17} closed
+2025-09-23 10:58:59.518  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Starting MySpringsecurityPlusApplication on NJL5CG35065JV with PID 2720 (C:\Users\ux018660\Desktop\JAVA\rbac\target\classes started by ux018660 in C:\Users\ux018660\Desktop\JAVA\rbac)
+2025-09-23 10:58:59.518  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : The following profiles are active: dev
+2025-09-23 10:59:00.628  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-09-23 10:59:00.628  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-23 10:59:00.639  INFO 2720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2025-09-23 10:59:00.681  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@602dc449' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:59:00.682  INFO 2720 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-09-23 10:59:00.707  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-23 10:59:00.707  INFO 2720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-23 10:59:00.707  INFO 2720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2025-09-23 10:59:00.730  INFO 2720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-23 10:59:00.730  INFO 2720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1210 ms
+2025-09-23 10:59:00.745  INFO 2720 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-09-23 10:59:02.740  INFO 2720 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-18} inited
+2025-09-23 10:59:02.764  WARN 2720 --- [restartedMain] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.codermy.myspringsecurityplus.admin.entity.MyUser".
+2025-09-23 10:59:02.764  WARN 2720 --- [restartedMain] c.b.m.core.injector.DefaultSqlInjector   : class com.codermy.myspringsecurityplus.admin.entity.MyUser ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-resources/**', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/PearAdmin/**', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/component/**', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/admin/**', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.html', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.css', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**/*.js', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/swagger-ui.html', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/webjars/**', GET], []
+2025-09-23 10:59:02.829  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/v2/**', GET], []
+2025-09-23 10:59:02.830  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/druid/**', GET], []
+2025-09-23 10:59:02.836  INFO 2720 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f7a60ad, org.springframework.security.web.context.SecurityContextPersistenceFilter@508bbb28, org.springframework.security.web.header.HeaderWriterFilter@617bcc38, org.springframework.security.web.authentication.logout.LogoutFilter@6b8d2686, com.codermy.myspringsecurityplus.security.filter.VerifyCodeFilter@7c930429, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29463612, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d03e31a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56fc088d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69590466, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@35d73753, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37ad203e, org.springframework.security.web.session.SessionManagementFilter@3cf67e5c, org.springframework.security.web.access.ExceptionTranslationFilter@33b6a8fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@259ba68a]
+2025-09-23 10:59:02.869  INFO 2720 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-09-23 10:59:02.880  INFO 2720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-23 10:59:03.005  INFO 2720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-23 10:59:03.017  INFO 2720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-23 10:59:03.020  INFO 2720 --- [restartedMain] c.c.m.MySpringsecurityPlusApplication    : Started MySpringsecurityPlusApplication in 3.613 seconds (JVM running for 3685.037)
+2025-09-23 10:59:03.020  INFO 2720 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

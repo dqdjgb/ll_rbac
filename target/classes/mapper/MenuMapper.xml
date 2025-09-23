@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.codermy.myspringsecurityplus.admin.mapper.MenuMapper">
+
+    <select id="getMenu" resultType="com.codermy.myspringsecurityplus.admin.dto.MenuIndexDto">
+        select m.menu_id id, m.parent_id, m.menu_name title, m.icon,m.url href,m.type,m.permission,m.sort
+        from my_role_user ru
+        inner join my_role_menu rm on rm.role_id = ru.role_id
+        left join my_menu m on rm.menu_id = m.menu_id
+        <where>
+            <if test="userId != null">
+                ru.user_id = #{userId}
+            </if>
+        </where>
+        order by ifnull(m.sort,0)
+    </select>
+
+</mapper>

@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e41a87ce-0d75-4ff3-b724-9a14d510f63e" name="Changes" comment="new dict">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/JobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/entity/MyDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/entity/MyJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/entity/MyRoleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/mapper/RoleUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/JobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/RoleUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/JobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/RoleUserImple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/common/utils/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/MySpringsecurityPlusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/MySpringsecurityPlusApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/CaptchaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/controller/CaptchaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/dto/MenuIndexDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/dto/MenuIndexDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/mapper/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/mapper/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logger/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logger/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/load.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/load.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/console1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/console1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/console2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/console2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/person.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/person.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/other/result.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/images/403.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/403.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/images/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/404.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/images/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/500.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/images/background.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/background.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/admin/images/background2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/background2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/dtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/dtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/dtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/font/dtreefont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/font/dtreefont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/font/dtreefont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/font/dtreefont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/font/icons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/dtree/font/icons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/frame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/icon/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/icon/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/icon/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/icon/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/icon/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/icon/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/iconPicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/iconPicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/notice.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/notice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/tab.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/topBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/topBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/treetable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear-module/treetable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear.all.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear.all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/css/pear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/area.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/area.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/count.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/design.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/drawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/echartsTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/echartsTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/frame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/hash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/iconPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/iconPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/notice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/notice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/jquery.tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/jquery.tinymce.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/langs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/langs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/langs/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/langs/zh_CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/default/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/default/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/default/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/default/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/document/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/document/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/document/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/document/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/silver/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/silver/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/silver/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/themes/silver/theme.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/tinymce/tinymce/tinymce.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/topBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/topBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/treetable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/module/treetable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/pear.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/pear.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/component/pear/pear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/component/pear/pear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/pear.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/pear.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/console/console1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/console/console1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/console/console2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/console/console2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/area.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/count.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/count.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/drawer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/drawer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/hash.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/hash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/icon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/iconPicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/iconPicker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/notice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/step.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/step.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/tinymce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/tinymce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/topBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/topBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/document/treetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/document/treetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dept/dept.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-detail-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-detail-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-detail-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-detail-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/dict/dict.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/job/job-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/job/job-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/job/job-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/job/job-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/job/job.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/job/job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/log/errorLog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/log/errorLog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/log/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/menu/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/role/role-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/role/role-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/role/role-dataScope.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/role/role-dataScope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/role/role-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/role/role-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/role/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/role/role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/user/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/user/user-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/user/user-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/user/user-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/system/user/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/system/user/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codermy/myspringsecurityplus/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codermy/myspringsecurityplus/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codermy/myspringsecurityplus/MySpringsecurityPlusApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codermy/myspringsecurityplus/MySpringsecurityPlusApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codermy/myspringsecurityplus/admin/controller/CaptchaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codermy/myspringsecurityplus/admin/controller/CaptchaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codermy/myspringsecurityplus/security/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codermy/myspringsecurityplus/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logger/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logger/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/load.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/load.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/console1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/console1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/console2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/console2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/error.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/person.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/person.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/css/other/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/css/other/result.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/images/403.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/images/403.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/images/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/images/404.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/images/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/images/500.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/images/background.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/images/background.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/admin/images/background2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/admin/images/background2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/code/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/code/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/card.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/dtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/dtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/dtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/dtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/font/dtreefont.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/font/dtreefont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/font/dtreefont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/font/dtreefont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/font/icons.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/dtree/font/icons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/frame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/icon/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/icon/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/icon/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/icon/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/icon/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/icon/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/iconPicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/iconPicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/notice.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/notice.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/select.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/step.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/step.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/tab.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/tag.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/tag.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/topBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/topBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/treetable.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear-module/treetable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear.all.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear.all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/css/pear.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/area.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/area.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/count.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/count.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/design.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/design.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/drawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/echartsTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/echartsTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/frame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/hash.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/hash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/iconPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/iconPicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/notice.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/notice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/step.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/jquery.tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/jquery.tinymce.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/langs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/langs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/langs/zh_CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/langs/zh_CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/js/emojis.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/help/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/indent2em/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/print/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/quickbars/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/toc/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/dark/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/default/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/default/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/default/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/default/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/document/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/document/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/document/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/document/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/content/writer/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/content.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide-dark/skin.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.inline.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/content.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.min1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/skins/ui/oxide/skin.mobile.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/mobile/theme.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/silver/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/silver/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/silver/theme.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/themes/silver/theme.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/tinymce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/tinymce/tinymce/tinymce.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/topBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/topBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/module/treetable.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/module/treetable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/pear.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/pear.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/component/pear/pear.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/component/pear/pear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/pear.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/pear.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/console/console1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/console/console1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/console/console2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/console/console2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/area.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/count.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/count.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/drawer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/drawer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/hash.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/hash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/icon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/iconPicker.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/iconPicker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/notice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/step.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/step.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/tinymce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/tinymce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/topBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/topBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/document/treetable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/document/treetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/result/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/result/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/result/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/result/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dept/dept-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dept/dept-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dept/dept-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dept/dept-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dept/dept.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dept/dept.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-detail-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-detail-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-detail-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-detail-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dict/dict-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/dict/dict.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/dict/dict.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/job/job-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/job/job-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/job/job-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/job/job-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/job/job.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/job/job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/log/errorLog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/log/errorLog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/log/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/log/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/menu/menu-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/menu/menu-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/menu/menu-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/menu/menu-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/menu/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/menu/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/role/role-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/role/role-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/role/role-dataScope.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/role/role-dataScope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/role/role-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/role/role-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/role/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/role/role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/user/user-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/user/user-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/user/user-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/user/user-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/user/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/user/user.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dqdjgb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dqdjgb/ll_rbac.git&quot;,
+    &quot;accountId&quot;: &quot;c85de33a-9b33-4450-9b6b-6493a283ad7e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3339ywgwJj28PfOlcEU9D5Lmdin" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MySpringsecurityPlusApplication.executor": "Run",
+    "Application.rbac.executor": "Run",
+    "JUnit.test.testDict.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ux018660/Desktop/JAVA/rbac",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ux018660\Desktop\JAVA\rbac\src\main\java\com\codermy\myspringsecurityplus\admin\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ux018660\Desktop\JAVA\rbac\src\main\java\com\codermy\myspringsecurityplus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.rbac">
+    <configuration name="rbac" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.codermy.myspringsecurityplus.MySpringsecurityPlusApplication" />
+      <module name="my-springsecurity-plus" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-springsecurity-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codermy.myspringsecurityplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codermy.myspringsecurityplus" />
+      <option name="MAIN_CLASS_NAME" value="com.codermy.myspringsecurityplus.test" />
+      <option name="METHOD_NAME" value="testDict" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ll-excersice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ll-excersice" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.testDict" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e41a87ce-0d75-4ff3-b724-9a14d510f63e" name="Changes" comment="" />
+      <created>1758535146766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758535146766</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1758592826698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758592826698</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xiugai">
+      <option name="closed" value="true" />
+      <created>1758596781183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758596781183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <MESSAGE value="xiugai" />
+    <MESSAGE value="new dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="new dict" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/codermy/myspringsecurityplus/test.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/DictServiceImpl.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/codermy/myspringsecurityplus/admin/service/impl/DictServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

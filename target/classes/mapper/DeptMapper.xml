@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.codermy.myspringsecurityplus.admin.mapper.DeptMapper">
+
+    <select id="buildAll" resultType="com.codermy.myspringsecurityplus.admin.dto.DeptDto">
+        select d.dept_id id, d.parent_id, d.dept_name title
+        from my_dept d
+        <where>
+            ${deptDto.dataScope}
+        </where>
+    </select>
+
+</mapper>

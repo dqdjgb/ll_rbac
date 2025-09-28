@@ -1,0 +1,28 @@
+一。角色和权限 ----- 类上校验，方法上校验
+1.各场景普通用户
+2.admin
+3.数据管理员
+
+	现在
+
+二。状态流转
+
+1.TODO
+	1)submitter
+	2)AssignGroup  --- 指派的是群组
+	3)Assign       --- 指派的是个人
+	
+2.IN_PRO
+3.COMPLETED
+4.CLOSE
+
+三。操作
+
+1.reassign
+2.cancel
+3.add
+4.cancel
+5.edit
+6.claim
+7.complete
+8.reopen
